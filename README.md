@@ -1,4 +1,4 @@
-````markdown
+
 # 🤖 Binance Futures Trading Bot
 
 A **Python-based trading bot** for **Binance Futures Testnet**, designed for multiple order types, advanced trading strategies, and a rich CLI interface. Perfect for testing, learning, and simulating crypto trading strategies without risking real funds.
