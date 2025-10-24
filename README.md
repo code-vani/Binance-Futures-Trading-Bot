@@ -238,8 +238,6 @@ Trading cryptocurrencies involves substantial risk of loss. The authors are not 
 - [Rich](https://github.com/Textualize/rich) - Terminal formatting library
 - Binance for providing testnet environment
 
-https://github.com/user-attachments/assets/b7db7e2b-7e9b-47cf-8920-dffd1d93462f
-
 
 
 ## 📧 Contact
