@@ -1,6 +1,10 @@
 
 # 🤖 Binance Futures Trading Bot
 
+## ⚠️ Disclaimer
+This bot is for educational and testing purposes only and operates on Binance Testnet with virtual funds.
+Do not use it with real money without understanding trading risks.
+
 A **Python-based trading bot** for **Binance Futures Testnet**, designed for multiple order types, advanced trading strategies, and a rich CLI interface. Perfect for testing, learning, and simulating crypto trading strategies without risking real funds.
 
 ---
