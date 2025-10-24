@@ -145,4 +145,11 @@ binance-trading-bot/
     └── trading_bot_*.log
 ```
 
-Do you want me to do that?
+## 🙏 Acknowledgments 
+python-binance - Binance API wrapper 
+Rich - Terminal formatting library 
+Binance for providing testnet environment 
+
+## 📧 Contact
+For questions or support, please open an issue on GitHub.
+⭐ If you find this project helpful, please consider giving it a star!
