@@ -1,0 +1,94 @@
+2025-10-24 13:24:45,660 - TradingBot - INFO - Time synchronized - offset: -4498ms
+2025-10-24 13:24:45,663 - TradingBot - INFO - Trading Bot initialized successfully
+2025-10-24 13:24:45,664 - TradingBot - INFO - Testnet mode: True
+2025-10-24 13:24:53,960 - TradingBot - INFO - Symbol BTCUSDT validated successfully
+2025-10-24 13:24:54,444 - TradingBot - INFO - Current price for BTCUSDT: 110977.9
+2025-10-24 13:25:00,023 - TradingBot - INFO - API Request - Order Type: MARKET         
+2025-10-24 13:25:00,023 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 0.001,
+  "recvWindow": 60000
+}
+2025-10-24 13:25:00,503 - TradingBot - INFO - API Response received
+2025-10-24 13:25:00,504 - TradingBot - DEBUG - Response Data: {
+  "orderId": 6879374199,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "Kf2Awg9O6rbCANSBYRfymb",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "0.001",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761292496008
+}
+2025-10-24 13:25:00,505 - TradingBot - INFO - [OK] Market BUY order placed successfully
+2025-10-24 13:25:10,276 - TradingBot - INFO - Symbol ETHUSDT validated successfully
+2025-10-24 13:25:10,469 - TradingBot - INFO - Current price for ETHUSDT: 3943.2
+2025-10-24 13:25:17,537 - TradingBot - INFO - API Request - Order Type: MARKET         
+2025-10-24 13:25:17,561 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "MARKET",
+  "quantity": 0.01,
+  "recvWindow": 60000
+}
+2025-10-24 13:25:18,044 - TradingBot - INFO - API Response received
+2025-10-24 13:25:18,046 - TradingBot - DEBUG - Response Data: {
+  "orderId": 5775918311,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "1aTuszj5W5xzDyzEGsXQTs",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "0.010",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761292513552
+}
+2025-10-24 13:25:18,046 - TradingBot - INFO - [OK] Market SELL order placed successfully
+2025-10-24 13:25:25,112 - TradingBot - INFO - Symbol ETHUSDT validated successfully
+2025-10-24 13:25:25,595 - TradingBot - INFO - Current price for ETHUSDT: 3943.0
+2025-10-24 13:25:32,508 - TradingBot - INFO - API Request - Order Type: LIMIT          
+2025-10-24 13:25:32,509 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "LIMIT",
+  "quantity": 0.01,
+  "price": 3745.85,
+  "timeInForce": "GTC",
+  "recvWindow": 60000
+}
+2025-10-24 13:25:32,985 - TradingBot - ERROR - Error occurred: BinanceAPIException
+2025-10-24 13:25:32,986 - TradingBot - ERROR - Error message: APIError(code=-4024): Limit price can't be lower than 3745.87.
+2025-10-24 13:25:32,986 - TradingBot - ERROR - Binance API Error: Limit price can't be lower than 3745.87.

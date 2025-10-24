@@ -1,0 +1,666 @@
+2025-10-24 13:32:19,879 - TradingBot - INFO - Time synchronized - offset: -4552ms
+2025-10-24 13:32:19,881 - TradingBot - INFO - Trading Bot initialized successfully
+2025-10-24 13:32:19,881 - TradingBot - INFO - Testnet mode: True
+2025-10-24 13:32:28,243 - TradingBot - INFO - Symbol BTCUSDT validated successfully
+2025-10-24 13:32:28,418 - TradingBot - INFO - Current price for BTCUSDT: 111031.3
+2025-10-24 13:32:35,393 - TradingBot - INFO - API Request - Order Type: MARKET         
+2025-10-24 13:32:35,394 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 0.001,
+  "recvWindow": 60000
+}
+2025-10-24 13:32:35,597 - TradingBot - INFO - API Response received
+2025-10-24 13:32:35,597 - TradingBot - DEBUG - Response Data: {
+  "orderId": 6880287288,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "M9nsJnanVYnbPxIswLlepr",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "0.001",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761292951077
+}
+2025-10-24 13:32:35,597 - TradingBot - INFO - [OK] Market BUY order placed successfully
+2025-10-24 13:32:44,932 - TradingBot - INFO - Symbol ETHUSDT validated successfully
+2025-10-24 13:32:45,473 - TradingBot - INFO - Current price for ETHUSDT: 3948.53
+2025-10-24 13:32:50,981 - TradingBot - INFO - API Request - Order Type: MARKET         
+2025-10-24 13:32:50,985 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "MARKET",
+  "quantity": 0.01,
+  "recvWindow": 60000
+}
+2025-10-24 13:32:51,556 - TradingBot - INFO - API Response received
+2025-10-24 13:32:51,556 - TradingBot - DEBUG - Response Data: {
+  "orderId": 5776304617,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "K4fL029UpkaS9fD1bBrhyu",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "0.010",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761292966964
+}
+2025-10-24 13:32:51,556 - TradingBot - INFO - [OK] Market SELL order placed successfully
+2025-10-24 13:32:57,175 - TradingBot - INFO - Symbol ETHUSDT validated successfully
+2025-10-24 13:32:57,337 - TradingBot - INFO - Current price for ETHUSDT: 3947.14
+2025-10-24 13:33:07,923 - TradingBot - INFO - API Request - Order Type: LIMIT          
+2025-10-24 13:33:07,923 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "LIMIT",
+  "quantity": 0.01,
+  "price": 3749.79,
+  "timeInForce": "GTC",
+  "recvWindow": 60000
+}
+2025-10-24 13:33:08,099 - TradingBot - INFO - API Response received
+2025-10-24 13:33:08,099 - TradingBot - DEBUG - Response Data: {
+  "orderId": 5776317894,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "Ft4YJ120QP14GtzrT32dQH",
+  "price": "3749.79",
+  "avgPrice": "0.00",
+  "origQty": "0.010",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761292983600
+}
+2025-10-24 13:33:08,100 - TradingBot - INFO - [OK] Limit SELL order placed successfully at 3749.79
+2025-10-24 13:33:23,304 - TradingBot - INFO - Symbol BTCUSDT validated successfully
+2025-10-24 13:33:23,468 - TradingBot - INFO - Current price for BTCUSDT: 110884.3
+2025-10-24 13:33:32,804 - TradingBot - INFO - API Request - Order Type: LIMIT          
+2025-10-24 13:33:32,805 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "LIMIT",
+  "quantity": 0.001,
+  "price": 110000.0,
+  "timeInForce": "GTC",
+  "recvWindow": 60000
+}
+2025-10-24 13:33:33,493 - TradingBot - INFO - API Response received
+2025-10-24 13:33:33,494 - TradingBot - DEBUG - Response Data: {
+  "orderId": 6880409869,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "0RO5uZnsIbyOzC1g3ry4A4",
+  "price": "110000.00",
+  "avgPrice": "0.00",
+  "origQty": "0.001",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761293008850
+}
+2025-10-24 13:33:33,494 - TradingBot - INFO - [OK] Limit BUY order placed successfully at 110000.0
+2025-10-24 13:33:42,161 - TradingBot - INFO - Symbol BTCUSDT validated successfully
+2025-10-24 13:33:42,599 - TradingBot - INFO - Current price for BTCUSDT: 110876.5
+2025-10-24 13:33:58,361 - TradingBot - INFO - API Request - Order Type: STOP_LIMIT     
+2025-10-24 13:33:58,361 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "BTCUSDT",
+  "side": "SELL",
+  "type": "STOP",
+  "quantity": 0.001,
+  "stopPrice": 109000.0,
+  "price": 108500.0,
+  "recvWindow": 60000
+}
+2025-10-24 13:33:58,547 - TradingBot - INFO - API Response received
+2025-10-24 13:33:58,547 - TradingBot - DEBUG - Response Data: {
+  "orderId": 6880454952,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "j6yJDPZfvjrF7E30cQTtp0",
+  "price": "108500.00",
+  "avgPrice": "0.00",
+  "origQty": "0.001",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "STOP",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "stopPrice": "109000.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "STOP",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761293034039
+}
+2025-10-24 13:33:58,547 - TradingBot - INFO - [OK] Stop-Limit SELL order placed - Stop: 109000.0, Limit: 108500.0
+2025-10-24 13:34:09,524 - TradingBot - INFO - Symbol BTCUSDT validated successfully
+2025-10-24 13:34:19,510 - TradingBot - INFO - Starting TWAP order - Symbol: BTCUSDT, Side: BUY
+2025-10-24 13:34:19,510 - TradingBot - INFO - Total Quantity: 0.003, Duration: 1min, Orders: 3
+2025-10-24 13:34:19,886 - TradingBot - INFO - Placing TWAP order 1/3
+2025-10-24 13:34:20,102 - TradingBot - INFO - API Request - Order Type: MARKET         
+2025-10-24 13:34:20,103 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 0.001,
+  "recvWindow": 60000
+}
+2025-10-24 13:34:20,274 - TradingBot - INFO - API Response received
+2025-10-24 13:34:20,275 - TradingBot - DEBUG - Response Data: {
+  "orderId": 6880498526,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "BVPbNp2HcEpJ50VkgFJgH4",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "0.001",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761293055782
+}
+2025-10-24 13:34:20,276 - TradingBot - INFO - [OK] Market BUY order placed successfully
+2025-10-24 13:34:20,277 - TradingBot - INFO - [OK] TWAP order 1 executed
+2025-10-24 13:34:20,277 - TradingBot - INFO - Waiting 20.0 seconds until next order
+2025-10-24 13:34:40,279 - TradingBot - INFO - Placing TWAP order 2/3
+2025-10-24 13:34:40,655 - TradingBot - INFO - API Request - Order Type: MARKET         
+2025-10-24 13:34:40,656 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 0.001,
+  "recvWindow": 60000
+}
+2025-10-24 13:34:40,934 - TradingBot - INFO - API Response received
+2025-10-24 13:34:40,935 - TradingBot - DEBUG - Response Data: {
+  "orderId": 6880539233,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "UvDZNnCbZVJC3wGhtdHlGz",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "0.001",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761293076377
+}
+2025-10-24 13:34:40,935 - TradingBot - INFO - [OK] Market BUY order placed successfully
+2025-10-24 13:34:40,936 - TradingBot - INFO - [OK] TWAP order 2 executed
+2025-10-24 13:34:40,936 - TradingBot - INFO - Waiting 20.0 seconds until next order
+2025-10-24 13:35:00,937 - TradingBot - INFO - Placing TWAP order 3/3
+2025-10-24 13:35:01,611 - TradingBot - INFO - API Request - Order Type: MARKET         
+2025-10-24 13:35:01,611 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 0.001,
+  "recvWindow": 60000
+}
+2025-10-24 13:35:02,090 - TradingBot - INFO - API Response received
+2025-10-24 13:35:02,091 - TradingBot - DEBUG - Response Data: {
+  "orderId": 6880579414,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "pxanhIvaVNDH9IJZsAkWcQ",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "0.001",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761293097591
+}
+2025-10-24 13:35:02,092 - TradingBot - INFO - [OK] Market BUY order placed successfully
+2025-10-24 13:35:02,093 - TradingBot - INFO - [OK] TWAP order 3 executed
+2025-10-24 13:35:02,094 - TradingBot - INFO - TWAP order completed - 3/3 successful
+2025-10-24 13:35:10,477 - TradingBot - INFO - Symbol BTCUSDT validated successfully
+2025-10-24 13:35:10,653 - TradingBot - INFO - Current price for BTCUSDT: 110814.1
+2025-10-24 13:35:24,233 - TradingBot - INFO - Starting Grid order - Symbol: BTCUSDT, Side: BUY
+2025-10-24 13:35:24,233 - TradingBot - INFO - Price Range: 108000.0 - 112000.0, Grids: 5
+2025-10-24 13:35:25,120 - TradingBot - INFO - Placing grid order 1/5 at price 108000.0
+2025-10-24 13:35:26,486 - TradingBot - INFO - API Request - Order Type: LIMIT          
+2025-10-24 13:35:26,486 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "LIMIT",
+  "quantity": 0.001,
+  "price": 108000.0,
+  "timeInForce": "GTC",
+  "recvWindow": 60000
+}
+2025-10-24 13:35:26,655 - TradingBot - INFO - API Response received
+2025-10-24 13:35:26,655 - TradingBot - DEBUG - Response Data: {
+  "orderId": 6880634227,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "aOeim5itM3GxeuZM4svMfU",
+  "price": "108000.00",
+  "avgPrice": "0.00",
+  "origQty": "0.001",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761293122166
+}
+2025-10-24 13:35:26,655 - TradingBot - INFO - [OK] Limit BUY order placed successfully at 108000.0
+2025-10-24 13:35:26,656 - TradingBot - INFO - [OK] Grid order 1 placed
+2025-10-24 13:35:27,535 - TradingBot - INFO - Placing grid order 2/5 at price 109000.0
+2025-10-24 13:35:28,110 - TradingBot - INFO - API Request - Order Type: LIMIT          
+2025-10-24 13:35:28,110 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "LIMIT",
+  "quantity": 0.001,
+  "price": 109000.0,
+  "timeInForce": "GTC",
+  "recvWindow": 60000
+}
+2025-10-24 13:35:28,610 - TradingBot - INFO - API Response received
+2025-10-24 13:35:28,611 - TradingBot - DEBUG - Response Data: {
+  "orderId": 6880638110,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "KGb1chgKMXeRHCbE129ilo",
+  "price": "109000.00",
+  "avgPrice": "0.00",
+  "origQty": "0.001",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761293124099
+}
+2025-10-24 13:35:28,611 - TradingBot - INFO - [OK] Limit BUY order placed successfully at 109000.0
+2025-10-24 13:35:28,613 - TradingBot - INFO - [OK] Grid order 2 placed
+2025-10-24 13:35:29,036 - TradingBot - INFO - Placing grid order 3/5 at price 110000.0
+2025-10-24 13:35:30,379 - TradingBot - INFO - API Request - Order Type: LIMIT          
+2025-10-24 13:35:30,379 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "LIMIT",
+  "quantity": 0.001,
+  "price": 110000.0,
+  "timeInForce": "GTC",
+  "recvWindow": 60000
+}
+2025-10-24 13:35:30,909 - TradingBot - INFO - API Response received
+2025-10-24 13:35:30,910 - TradingBot - DEBUG - Response Data: {
+  "orderId": 6880643232,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "ZeMUnrXuqHNiyxIrFWbQva",
+  "price": "110000.00",
+  "avgPrice": "0.00",
+  "origQty": "0.001",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761293126374
+}
+2025-10-24 13:35:30,910 - TradingBot - INFO - [OK] Limit BUY order placed successfully at 110000.0
+2025-10-24 13:35:30,912 - TradingBot - INFO - [OK] Grid order 3 placed
+2025-10-24 13:35:31,405 - TradingBot - INFO - Placing grid order 4/5 at price 111000.0
+2025-10-24 13:35:32,044 - TradingBot - INFO - API Request - Order Type: LIMIT          
+2025-10-24 13:35:32,045 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "LIMIT",
+  "quantity": 0.001,
+  "price": 111000.0,
+  "timeInForce": "GTC",
+  "recvWindow": 60000
+}
+2025-10-24 13:35:32,547 - TradingBot - INFO - API Response received
+2025-10-24 13:35:32,549 - TradingBot - DEBUG - Response Data: {
+  "orderId": 6880645776,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "0oANVCa3j6NFJhYvOpvyZd",
+  "price": "111000.00",
+  "avgPrice": "0.00",
+  "origQty": "0.001",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761293128054
+}
+2025-10-24 13:35:32,549 - TradingBot - INFO - [OK] Limit BUY order placed successfully at 111000.0
+2025-10-24 13:35:32,550 - TradingBot - INFO - [OK] Grid order 4 placed
+2025-10-24 13:35:33,448 - TradingBot - INFO - Placing grid order 5/5 at price 112000.0
+2025-10-24 13:35:34,860 - TradingBot - INFO - API Request - Order Type: LIMIT          
+2025-10-24 13:35:34,860 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "LIMIT",
+  "quantity": 0.001,
+  "price": 112000.0,
+  "timeInForce": "GTC",
+  "recvWindow": 60000
+}
+2025-10-24 13:35:35,049 - TradingBot - INFO - API Response received
+2025-10-24 13:35:35,050 - TradingBot - DEBUG - Response Data: {
+  "orderId": 6880650584,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "FfcCrSskWQc6ZPn9Nb8IL6",
+  "price": "112000.00",
+  "avgPrice": "0.00",
+  "origQty": "0.001",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761293130558
+}
+2025-10-24 13:35:35,051 - TradingBot - INFO - [OK] Limit BUY order placed successfully at 112000.0
+2025-10-24 13:35:35,052 - TradingBot - INFO - [OK] Grid order 5 placed
+2025-10-24 13:35:35,255 - TradingBot - INFO - Grid order completed - 5/5 successful
+2025-10-24 13:35:42,456 - TradingBot - INFO - Fetching account balance
+2025-10-24 13:35:42,642 - TradingBot - INFO - API Response received
+2025-10-24 13:35:42,643 - TradingBot - DEBUG - Response Data: [
+  {
+    "accountAlias": "fWTiXqXqoCfWfW",
+    "asset": "FDUSD",
+    "balance": "0.00000000",
+    "crossWalletBalance": "0.00000000",
+    "crossUnPnl": "0.00000000",
+    "availableBalance": "0.00000000",
+    "maxWithdrawAmount": "0.00000000",
+    "marginAvailable": true,
+    "updateTime": 0
+  },
+  {
+    "accountAlias": "fWTiXqXqoCfWfW",
+    "asset": "BFUSD",
+    "balance": "0.00000000",
+    "crossWalletBalance": "0.00000000",
+    "crossUnPnl": "0.00000000",
+    "availableBalance": "0.00000000",
+    "maxWithdrawAmount": "0.00000000",
+    "marginAvailable": true,
+    "updateTime": 0
+  },
+  {
+    "accountAlias": "fWTiXqXqoCfWfW",
+    "asset": "BNB",
+    "balance": "0.00000000",
+    "crossWalletBalance": "0.00000000",
+    "crossUnPnl": "0.00000000",
+    "availableBalance": "0.00000000",
+    "maxWithdrawAmount": "0.00000000",
+    "marginAvailable": true,
+    "updateTime": 0
+  },
+  {
+    "accountAlias": "fWTiXqXqoCfWfW",
+    "asset": "ETH",
+    "balance": "0.00000000",
+    "crossWalletBalance": "0.00000000",
+    "crossUnPnl": "0.00000000",
+    "availableBalance": "0.00000000",
+    "maxWithdrawAmount": "0.00000000",
+    "marginAvailable": true,
+    "updateTime": 0
+  },
+  {
+    "accountAlias": "fWTiXqXqoCfWfW",
+    "asset": "BTC",
+    "balance": "0.01000000",
+    "crossWalletBalance": "0.01000000",
+    "crossUnPnl": "0.00000000",
+    "availableBalance": "0.01000000",
+    "maxWithdrawAmount": "0.01000000",
+    "marginAvailable": true,
+    "updateTime": 1761289109066
+  },
+  {
+    "accountAlias": "fWTiXqXqoCfWfW",
+    "asset": "USDT",
+    "balance": "4998.03026749",
+    "crossWalletBalance": "4998.03026749",
+    "crossUnPnl": "-6.22330000",
+    "availableBalance": "4724.58683249",
+    "maxWithdrawAmount": "4724.58683249",
+    "marginAvailable": true,
+    "updateTime": 1761293130558
+  },
+  {
+    "accountAlias": "fWTiXqXqoCfWfW",
+    "asset": "USDC",
+    "balance": "5000.00000000",
+    "crossWalletBalance": "5000.00000000",
+    "crossUnPnl": "0.00000000",
+    "availableBalance": "5000.00000000",
+    "maxWithdrawAmount": "5000.00000000",
+    "marginAvailable": true,
+    "updateTime": 1761289109060
+  }
+]
+2025-10-24 13:35:47,737 - TradingBot - INFO - Fetching open orders
+2025-10-24 13:35:48,208 - TradingBot - INFO - Found 20 open orders
+2025-10-24 13:35:59,270 - TradingBot - INFO - Checking status for order 5776317894
+2025-10-24 13:35:59,744 - TradingBot - INFO - API Response received
+2025-10-24 13:35:59,745 - TradingBot - DEBUG - Response Data: {
+  "orderId": 5776317894,
+  "symbol": "ETHUSDT",
+  "status": "FILLED",
+  "clientOrderId": "Ft4YJ120QP14GtzrT32dQH",
+  "price": "3749.79",
+  "avgPrice": "3948.99000",
+  "origQty": "0.010",
+  "executedQty": "0.010",
+  "cumQuote": "39.48990",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "time": 1761292983600,
+  "updateTime": 1761292983600
+}
+2025-10-24 13:36:11,389 - TradingBot - INFO - Checking status for order 5776317894
+2025-10-24 13:36:11,883 - TradingBot - INFO - API Response received
+2025-10-24 13:36:11,884 - TradingBot - DEBUG - Response Data: {
+  "orderId": 5776317894,
+  "symbol": "ETHUSDT",
+  "status": "FILLED",
+  "clientOrderId": "Ft4YJ120QP14GtzrT32dQH",
+  "price": "3749.79",
+  "avgPrice": "3948.99000",
+  "origQty": "0.010",
+  "executedQty": "0.010",
+  "cumQuote": "39.48990",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "time": 1761292983600,
+  "updateTime": 1761292983600
+}
+2025-10-24 13:36:21,110 - TradingBot - INFO - Current price for BTCUSDT: 110851.1
+2025-10-24 13:36:30,520 - TradingBot - INFO - Current price for SOLUSDT: 191.79
+2025-10-24 13:36:41,153 - TradingBot - INFO - Current price for BNBUSDT: 1121.38

@@ -1,0 +1,119 @@
+2025-10-24 13:10:14,876 - TradingBot - INFO - Time synchronized - offset: -4487ms
+2025-10-24 13:10:14,880 - TradingBot - INFO - Trading Bot initialized successfully
+2025-10-24 13:10:14,880 - TradingBot - INFO - Testnet mode: True
+2025-10-24 13:13:04,271 - TradingBot - INFO - Symbol BTCUSDT validated successfully
+2025-10-24 13:13:04,437 - TradingBot - INFO - Current price for BTCUSDT: 111065.7
+2025-10-24 13:13:13,189 - TradingBot - INFO - API Request - Order Type: MARKET         
+2025-10-24 13:13:13,190 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 0.001,
+  "recvWindow": 60000
+}
+2025-10-24 13:13:13,724 - TradingBot - INFO - API Response received
+2025-10-24 13:13:13,725 - TradingBot - DEBUG - Response Data: {
+  "orderId": 6877954373,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "SqbCvF5eE5BmLfI9igiiNI",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "0.001",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761291789193
+}
+2025-10-24 13:13:13,725 - TradingBot - INFO - [OK] Market BUY order placed successfully
+2025-10-24 13:13:26,236 - TradingBot - INFO - Symbol ETHUSDT validated successfully
+2025-10-24 13:13:26,417 - TradingBot - INFO - Current price for ETHUSDT: 3955.0
+2025-10-24 13:13:29,491 - TradingBot - INFO - API Request - Order Type: MARKET         
+2025-10-24 13:13:29,492 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "MARKET",
+  "quantity": 0.01,
+  "recvWindow": 60000
+}
+2025-10-24 13:13:29,724 - TradingBot - INFO - API Response received
+2025-10-24 13:13:29,724 - TradingBot - DEBUG - Response Data: {
+  "orderId": 5775317245,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "TumeOcAMzmCsmruOcU2CjB",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "0.010",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761291805188
+}
+2025-10-24 13:13:29,725 - TradingBot - INFO - [OK] Market SELL order placed successfully
+2025-10-24 13:13:39,059 - TradingBot - INFO - Symbol ETHUSDT validated successfully
+2025-10-24 13:13:39,541 - TradingBot - INFO - Current price for ETHUSDT: 3954.81
+2025-10-24 13:13:49,436 - TradingBot - INFO - API Request - Order Type: LIMIT          
+2025-10-24 13:13:49,437 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "LIMIT",
+  "quantity": 0.01,
+  "price": 3757.06,
+  "timeInForce": "GTC",
+  "recvWindow": 60000
+}
+2025-10-24 13:13:49,610 - TradingBot - INFO - API Response received
+2025-10-24 13:13:49,611 - TradingBot - DEBUG - Response Data: {
+  "orderId": 5775332284,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "UZdAHv4G8ktwzc5kZ6cRQI",
+  "price": "3757.06",
+  "avgPrice": "0.00",
+  "origQty": "0.010",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761291825115
+}
+2025-10-24 13:13:49,612 - TradingBot - INFO - [OK] Limit SELL order placed successfully at 3757.06

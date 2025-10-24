@@ -1,0 +1,31 @@
+2025-10-24 13:14:08,097 - TradingBot - INFO - Time synchronized - offset: -4489ms
+2025-10-24 13:14:08,101 - TradingBot - INFO - Trading Bot initialized successfully
+2025-10-24 13:14:08,102 - TradingBot - INFO - Testnet mode: True
+2025-10-24 13:14:27,136 - TradingBot - INFO - Checking status for order 5775332284
+2025-10-24 13:14:28,207 - TradingBot - INFO - API Response received
+2025-10-24 13:14:28,208 - TradingBot - DEBUG - Response Data: {
+  "orderId": 5775332284,
+  "symbol": "ETHUSDT",
+  "status": "FILLED",
+  "clientOrderId": "UZdAHv4G8ktwzc5kZ6cRQI",
+  "price": "3757.06",
+  "avgPrice": "3954.40000",
+  "origQty": "0.010",
+  "executedQty": "0.010",
+  "cumQuote": "39.54400",
+  "timeInForce": "GTC",
+  "type": "LIMIT",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "LIMIT",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "time": 1761291825115,
+  "updateTime": 1761291825115
+}

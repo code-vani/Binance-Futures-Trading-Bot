@@ -1,0 +1,81 @@
+2025-10-24 13:22:59,500 - TradingBot - INFO - Time synchronized - offset: -4489ms
+2025-10-24 13:22:59,503 - TradingBot - INFO - Trading Bot initialized successfully
+2025-10-24 13:22:59,504 - TradingBot - INFO - Testnet mode: True
+2025-10-24 13:23:07,564 - TradingBot - INFO - Symbol BTCUSDT validated successfully
+2025-10-24 13:23:08,057 - TradingBot - INFO - Current price for BTCUSDT: 111015.2
+2025-10-24 13:23:16,425 - TradingBot - INFO - API Request - Order Type: MARKET         
+2025-10-24 13:23:16,426 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "BTCUSDT",
+  "side": "BUY",
+  "type": "MARKET",
+  "quantity": 0.001,
+  "recvWindow": 60000
+}
+2025-10-24 13:23:16,892 - TradingBot - INFO - API Response received
+2025-10-24 13:23:16,892 - TradingBot - DEBUG - Response Data: {
+  "orderId": 6879166968,
+  "symbol": "BTCUSDT",
+  "status": "NEW",
+  "clientOrderId": "9D0NjZKm7DthvWrQvqvmfv",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "0.001",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "BUY",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761292392402
+}
+2025-10-24 13:23:16,893 - TradingBot - INFO - [OK] Market BUY order placed successfully
+2025-10-24 13:23:24,257 - TradingBot - INFO - Symbol ETHUSDT validated successfully
+2025-10-24 13:23:24,726 - TradingBot - INFO - Current price for ETHUSDT: 3942.02
+2025-10-24 13:23:31,133 - TradingBot - INFO - API Request - Order Type: MARKET         
+2025-10-24 13:23:31,134 - TradingBot - DEBUG - Request Parameters: {
+  "symbol": "ETHUSDT",
+  "side": "SELL",
+  "type": "MARKET",
+  "quantity": 0.01,
+  "recvWindow": 60000
+}
+2025-10-24 13:23:31,332 - TradingBot - INFO - API Response received
+2025-10-24 13:23:31,333 - TradingBot - DEBUG - Response Data: {
+  "orderId": 5775830862,
+  "symbol": "ETHUSDT",
+  "status": "NEW",
+  "clientOrderId": "SlRo7sbYYooiavYTe0snny",
+  "price": "0.00",
+  "avgPrice": "0.00",
+  "origQty": "0.010",
+  "executedQty": "0.000",
+  "cumQty": "0.000",
+  "cumQuote": "0.00000",
+  "timeInForce": "GTC",
+  "type": "MARKET",
+  "reduceOnly": false,
+  "closePosition": false,
+  "side": "SELL",
+  "positionSide": "BOTH",
+  "stopPrice": "0.00",
+  "workingType": "CONTRACT_PRICE",
+  "priceProtect": false,
+  "origType": "MARKET",
+  "priceMatch": "NONE",
+  "selfTradePreventionMode": "EXPIRE_MAKER",
+  "goodTillDate": 0,
+  "updateTime": 1761292406819
+}
+2025-10-24 13:23:31,333 - TradingBot - INFO - [OK] Market SELL order placed successfully
+2025-10-24 13:23:44,125 - TradingBot - INFO - Symbol ETHUSDT validated successfully
+2025-10-24 13:23:44,627 - TradingBot - INFO - Current price for ETHUSDT: 3943.0
